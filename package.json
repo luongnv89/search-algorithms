@@ -1,6 +1,6 @@
 {
   "name": "search-algorithms",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Collection of ready-to-use implementation of search algorithms such as: merge sort, quick sort, bubble sort, insertion sort",
   "main": "index.js",
   "scripts": {
