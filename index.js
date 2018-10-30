@@ -36,7 +36,6 @@ const quickSort = (data, desc, sortKey = null) => {
  * @param {Strign||null} sortKey sorted attribute
  */
 const bubbleSort = (data, desc, sortKey = null) => {
-  console.log('bubble sort', data);
   const sortedData = data.slice(0);
   for (let index1 = 0; index1 < sortedData.length - 1; index1 += 1) {
     for (let index = index1 + 1; index < sortedData.length; index += 1) {
@@ -57,7 +56,6 @@ const bubbleSort = (data, desc, sortKey = null) => {
  * @param {Strign||null} sortKey sorted attribute
  */
 const insertionSort = (data, desc, sortKey = null) => {
-  console.log('insertion sort', data);
   let sortedData = data.slice(0);
   for (let index1 = 0; index1 < sortedData.length; index1 += 1) {
     const currentElem = sortedData[index1];

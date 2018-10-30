@@ -7,19 +7,34 @@ Collection of ready-to-use implementation of search algorithms such as: merge so
 
 ## Usage
 
-```
-const { mergeSort } = require('search-algorithms');
+```javascript
+const { bubbleSort } = require('search-algorithms');
 
 const data = [1, 4, 5, 6, 45, 4, 3, 42, 4];
-const sortedData = mergeSort(data, true);
-// 45, 42, 6, 5, 4, 4, 4, 3, 1
+const sortedData = bubbleSort(data, false);
+console.log(sortedData);
+// [ 1, 3, 4, 4, 4, 5, 6, 42, 45 ]
+
+const data2 = [{"id":1}, {"id":4}, {"id":5}, {"id":6}, {"id":45}, {"id":4}, {"id":3}, {"id":42}, {"id":4}];
+const sortedData2 = bubbleSort(data2, false, "id");
+console.log("result: ", sortedData2);
+/* [ { id: 1 },
+  { id: 3 },
+  { id: 4 },
+  { id: 4 },
+  { id: 4 },
+  { id: 5 },
+  { id: 6 },
+  { id: 42 },
+  { id: 45 } ]
+  */
 ```
 
 ## APIs
 
 ### multiSort
 
-```
+```javascript
 /**
  * Sort an array
  *
@@ -37,7 +52,7 @@ With the `alg` can be: `QUICK_SORT, MERGE_SORT, BUBBLE_SORT, INSERTION_SORT`
 
 ### bubbleSort
 
-```
+```javascript
 /**
  * Bubble sort - O(n^2)
  * @param {Array} data Array of data
@@ -51,7 +66,7 @@ const bubbleSort = (data, desc, sortKey = null)
 
 ### insertionSort
 
-```
+```javascript
 /**
  * Insertion sort - O(n^2)
  * @param {Array} data Array of data
