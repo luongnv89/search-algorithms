@@ -1,18 +1,18 @@
 {
-  "name": "search-algorithms",
+  "name": "sorting-algorithms",
   "version": "1.0.3",
-  "description": "Collection of ready-to-use implementation of search algorithms such as: merge sort, quick sort, bubble sort, insertion sort",
+  "description": "Collection of ready-to-use implementation of some sorting algorithms such as: merge sort, quick sort, bubble sort, insertion sort",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luongnv89/search-algorithms.git"
+    "url": "git+https://github.com/luongnv89/sorting-algorithms.git"
   },
   "keywords": [
     "algorithms",
-    "search",
+    "sorting",
     "merge",
     "sort",
     "quick",
@@ -25,9 +25,9 @@
   "author": "Luong NGUYEN",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/luongnv89/search-algorithms/issues"
+    "url": "https://github.com/luongnv89/sorting-algorithms/issues"
   },
-  "homepage": "https://github.com/luongnv89/search-algorithms#readme",
+  "homepage": "https://github.com/luongnv89/sorting-algorithms#readme",
   "devDependencies": {
     "jest": "^23.6.0"
   }

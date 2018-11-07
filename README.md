@@ -1,14 +1,14 @@
-# search-algorithms
-Collection of ready-to-use implementation of search algorithms such as: merge sort, quick sort, bubble sort, insertion sort,
+# sorting-algorithms
+Collection of ready-to-use implementation of some sorting algorithms such as: merge sort, quick sort, bubble sort, insertion sort,
 
 ## Install
 
-`npm i search-algorithms`
+`npm i sorting-algorithms`
 
 ## Usage
 
 ```javascript
-const { bubbleSort } = require('search-algorithms');
+const { bubbleSort } = require('sorting-algorithms');
 
 const data = [1, 4, 5, 6, 45, 4, 3, 42, 4];
 const sortedData = bubbleSort(data, false);
